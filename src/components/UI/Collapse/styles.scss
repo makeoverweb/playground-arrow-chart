@@ -1,0 +1,11 @@
+@import '../../../static/styles/colors';
+
+.collapsible {
+  padding: 2rem 1rem 0;
+}
+.trigger {
+  color: var(--basic-300);
+  font-weight: 600;
+  border-bottom: 1px solid var(--orange-460);
+  cursor: pointer;
+}

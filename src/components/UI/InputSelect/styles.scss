@@ -1,0 +1,127 @@
+@import '../../../static/styles/colors';
+
+.inputSelectWrapper {
+  position: relative;
+  width: 100%;
+  min-width: 100px;
+  font-size: inherit;
+  .label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .input {
+    width: 100%; // full width - icon width/2 - border
+    word-wrap: break-word;
+    line-height: 1em;
+    outline: 0;
+    white-space: normal;
+    min-height: 2em;
+    background: var(--basic-w);
+    display: inline-block;
+    padding: 10px;
+    color: rgba(0,0,0,.87);
+    box-shadow: none;
+    border: 1px solid rgba(34,36,38,.15);
+    // border: 1px solid var(--purple-420);
+    border-radius: .30rem;
+    transition: box-shadow .1s ease,width .1s ease;
+    &:hover, &:focus {
+      border-color: #96c8da;
+      box-shadow: 0 2px 3px 0 rgba(34,36,38,.15);
+      .controllerButton {
+
+      }
+    }
+    &.isOpen {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      
+      &:hover, &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+  .controllerButton {
+    background-color: var(--background-w);
+    border: none;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    cursor: pointer;
+    width: 47px;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    border-radius: .30rem;
+  }
+}
+.relative {
+  position: relative;
+}
+.baseMenuWrapper {
+  position: absolute;
+  width: 104%;
+  height: 0;
+  overflow: hidden;
+  transition: height .3s;
+
+  &.isOpen {
+    height: 21rem;
+  }
+  &.toUp {
+    bottom: 100%;
+  }
+}
+
+.baseMenu {
+  padding: 0;
+  margin-top: 0;
+  position: absolute;
+  background-color: white;
+  width: 96%;
+  max-height: 20rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  outline: 0;
+  transition: opacity .1s ease;
+  border-radius: .28571429rem .28571429rem;
+  box-shadow: 2px 2px 6px 0px rgba(34, 36, 38, 0.15);
+  z-index: 1;
+
+  &.isOpen {
+    border: none;
+  }
+  &.toUp {
+    bottom: 0;
+    box-shadow: 2px -2px 6px 0px rgba(34, 36, 38, 0.15);
+  }
+  .item {
+    position: relative;
+    cursor: pointer;
+    display: block;
+    height: auto;
+    text-align: left;
+    border-style: none;
+    line-height: 1em;
+    color: rgba(0,0,0,.87);
+    font-size: 1rem;
+    text-transform: none;
+    font-weight: 400;
+    box-shadow: none;
+    padding: .8rem 1.1rem;
+    white-space: normal;
+    word-wrap: normal;
+    &.isActive {
+      color: rgba(0,0,0,.95);
+      background: rgba(0,0,0,.03);
+    }
+    &.isSelected {
+      color: rgba(0,0,0,.95);
+      font-weight: 700;
+    }
+  }
+}

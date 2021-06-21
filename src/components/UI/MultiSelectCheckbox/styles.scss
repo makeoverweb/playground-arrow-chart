@@ -1,0 +1,7 @@
+.multiSelectCheckboxContainer {
+  display: flex;
+  flex-flow: wrap;
+  .checkbox {
+    padding-right: 10px;
+  }
+}

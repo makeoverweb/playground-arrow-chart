@@ -1,0 +1,93 @@
+@import '../../../static/styles/colors.scss';
+
+.progressBar {
+  color: var(--basic-750);
+  &.s1 {
+    width: 48px;
+    height: 48px;
+    .countData {
+      font-size: 11px;
+    }
+
+    .countMeasure {
+      font-size: 8px;
+    }
+
+    .countText {
+      font-size: 7px;
+      color: var(--basic-800);
+    }
+  }
+
+  &.s2 {
+    width: 64px;
+    height: 64px;
+    .countData {
+      font-size: 14px;
+    }
+
+    .countMeasure {
+      font-size: 11px;
+    }
+
+    .countText {
+      font-size: 7px;
+      color: var(--basic-800);
+    }
+  }
+
+  &.s3 {
+    width: 80px;
+    height: 80px;
+    .countData {
+      font-size: 18px;
+    }
+
+    .countMeasure {
+      font-size: 14px;
+    }
+
+    .countText {
+      font-size: 8px;
+      color: var(--basic-800);
+    }
+  }
+
+  &.s4 {
+    width: 96px;
+    height: 96px;
+    .countData {
+      font-size: 22px;
+    }
+
+    .countMeasure {
+      font-size: 16px;
+    }
+
+    .countText {
+      font-size: 10px;
+      color: var(--basic-800);
+    }
+  }
+
+  &.s5 {
+    width: 110px;
+    height: 110px;
+    .countData {
+      font-size: 32px;
+    }
+
+    .countMeasure {
+      font-size: 28px;
+    }
+
+    .countText {
+      font-size: 14px;
+      color: var(--basic-800);
+    }
+  }
+
+  .countPercent {
+    text-align: center;
+  }
+}

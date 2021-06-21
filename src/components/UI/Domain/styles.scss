@@ -1,0 +1,18 @@
+@import "src/static/styles/colors";
+
+.domainContainer {
+  display: flex;
+  align-items: center;
+
+  .icon {
+    font-size: 1.4rem !important;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  .text {
+    padding-left: 10px;
+    font-size: 1.15rem;
+    color: var(--basic-750)
+  }
+}

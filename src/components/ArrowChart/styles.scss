@@ -1,0 +1,227 @@
+@import "src/static/styles/colors";
+
+.fluidContainer {
+  max-width: 100%;
+}
+
+.root {
+  position: relative;
+  overflow-y: auto;
+}
+
+.canvas {
+  display: block;
+}
+
+.currentDate {
+  color: $purple-600;
+}
+
+.currentDateLabel {
+  fill: currentColor;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.currentDateLine {
+  stroke: currentColor;
+  stroke-opacity: .5;
+  stroke-width: 1;
+  stroke-dasharray: 4, 3, 1, 3;
+}
+
+.axis {
+  stroke: $basic-500;
+  fill: none;
+}
+
+.axisLabel {
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 400;
+  fill: $basic-700;
+}
+
+.arrow {
+  fill: $orange-80;
+  fill-opacity: .75;
+  stroke: $orange-220;
+}
+
+.arrowEndLine {
+  stroke: none;
+  fill: url(#arrow-chart-finish-checkers);
+}
+.checker {
+  fill: $orange-600;
+}
+
+.eventDivider {
+  fill: none;
+  stroke: $orange-520;
+}
+
+.connectorLine {
+  color: $success-700;
+  stroke: currentColor;
+  stroke-dasharray: 3, 2;
+}
+
+.connectorBox {
+  color: $success-700;
+}
+
+.connectorLabel {}
+
+.connectorLabelPlate {
+  stroke: $basic-300;
+  fill: white;
+  fill-opacity: 0.8;
+}
+
+.connectorLabelText {
+  font-family: inherit;
+  font-weight: 400;
+  fill: currentColor;
+  tspan {
+    font-size: 12px;
+  }
+}
+
+.connectorLabelLine {
+  fill: none;
+  stroke: $basic-300;
+}
+
+.connectorBad {
+  color: $danger-460;
+}
+
+
+.durationLabel {
+}
+
+.durationLabelPlate {
+  stroke: $orange-220;
+  fill: rgba(255, 255, 255, .75);
+}
+
+.durationLabelText {
+  font-family: inherit;
+  font-weight: 400;
+  fill: $basic-700;
+  font-size: 11px;
+  tspan {
+    font-size: inherit;
+  }
+}
+
+.durationLabelHidden {
+  .durationLabel {
+    display: none;
+  }
+  &:hover {
+    .durationLabel {
+      display: block;
+    }
+  }
+}
+
+
+.endPointLabelPlate {
+  stroke: $basic-200;
+  fill: white;
+  fill-opacity: 0.8;
+}
+
+.endPointLabelText {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 12px;
+  fill: $basic-700;
+}
+
+.endPointLabelConnector {
+  stroke-width: 1;
+  stroke: $basic-200;
+}
+
+.startDateLabel {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 11px;
+  fill: $basic-700;
+}
+
+.eventLabelText {
+  font-family: inherit;
+  font-weight: 400;
+  fill: $basic-700;
+  font-size: 12px;
+
+  tspan {
+    font-size: inherit;
+  }
+}
+
+.eventLabelPlate {
+  stroke-width: 1;
+  stroke: $basic-200;
+  fill: #fff;
+  fill-opacity: 0.75;
+}
+
+.eventLabelLightBlue {
+  .eventLabelPlate {
+    fill: $cyan-200
+  }
+}
+
+.eventLabelDarkBlue {
+  .eventLabelPlate {
+    fill: $blue-520
+  }
+  .eventLabelText {
+    fill: #fff;
+  }
+}
+
+.eventLabelDarkGreen {
+  .eventLabelPlate {
+    fill: $success-750;
+  }
+  .eventLabelText {
+    fill: #fff;
+  }
+}
+
+.eventLabelGreen {
+  .eventLabelPlate {
+    fill: $success-400;
+  }
+}
+
+.eventLabelGrey {
+  .eventLabelPlate {
+    fill: $basic-200;
+  }
+}
+
+.eventLabelYellow {
+  .eventLabelPlate {
+    fill: $warning-400;
+  }
+}
+
+
+.eventLabelRed {
+  .eventLabelPlate {
+    fill: $danger-460;
+  }
+}
+
+.eventLabelLine {
+  stroke-width: 1;
+  stroke: $basic-200;
+}

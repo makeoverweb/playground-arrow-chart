@@ -1,0 +1,31 @@
+@import "../../../static/styles/colors";
+
+:global {
+
+  .Toastify__toast--default {
+    background: #fff;
+    color: #aaa;
+  }
+
+  .Toastify__toast--info {
+    background: var(--purple-600);
+  }
+
+  .Toastify__toast--success {
+    background: var(--success-700);
+  }
+
+  .Toastify__toast--warning {
+    background: var(--orange-520);
+  }
+
+  .Toastify__toast--error {
+    background: var(--orange-520);
+  }
+
+  .Toastify__toast-body {
+    margin: auto 0;
+    -ms-flex: 1;
+    flex: 1;
+  }
+}

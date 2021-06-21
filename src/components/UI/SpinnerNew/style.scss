@@ -1,0 +1,49 @@
+@import '../../../static/styles/colors';
+@import '../../../static/styles/theme.scss';
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  width: var(--m-6);
+  height: var(--m-6);
+  border: 3px solid var(--cyan-330);
+  border-radius: 50%;
+  border-right-color: transparent;
+  border-left-color: rgba(var(--cyan-330), 0.7);
+  border-bottom-color: rgba(var(--cyan-330), 0.5);
+  animation: spin 0.45s infinite linear;
+
+  &.m4 {
+    width: var(--m-4);
+    height: var(--m-4);
+    border-width: 2px;
+  }
+
+  &.m5 {
+    width: var(--m-5);
+    height: var(--m-5);
+    border-width: 2px;
+  }
+
+  &.m7 {
+    width: var(--m-7);
+    height: var(--m-7);
+    border-width: 3px solid var(--cyan-330);
+  }
+
+  &.m8 {
+    width: var(--m-8);
+    height: var(--m-8);
+    border-width: 4px solid var(--cyan-330);
+  }
+}

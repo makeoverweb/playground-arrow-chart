@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   viewBox="0 0 91.904572 53.973737"
+   id="svg12"
+   width="91.904572"
+   height="53.973736">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>map pin</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16" />
+  <title
+     id="title2">map pin</title>
+  <rect
+     style="fill:#333333;fill-opacity:0.63809527;stroke:none;stroke-width:4.5882678;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect817"
+     width="39.896923"
+     height="19.350899"
+     x="51.706394"
+     y="3.3496177"
+     ry="2.676888" />
+  <path
+     id="path844-6"
+     d="M 46.872112,21.727981 C 43.207138,29.251198 34.583638,39.969422 34.583638,39.969422 L 38.24863,23.453597 c 3.73685,-4.624386 11.688372,-13.084532 11.210587,-10.129692 -0.646806,3.999831 -0.94875,5.04098 -2.587105,8.404076 z"
+     style="fill:#f82400;stroke-width:0.60720956;fill-opacity:1" />
+  <path
+     id="path831-5"
+     d="m 45.81731,13.358715 c 0,4.819414 -3.815825,8.667053 -8.451039,8.667053 -4.635213,0 -8.451039,-3.847639 -8.451039,-8.667053 0,-4.8194136 3.815826,-8.6670529 8.451039,-8.6670529 4.635214,0 8.451039,3.8476393 8.451039,8.6670529 z"
+     style="fill:#ffffff;stroke:#ff5338;stroke-width:7.28651476;stroke-opacity:1" />
+</svg>

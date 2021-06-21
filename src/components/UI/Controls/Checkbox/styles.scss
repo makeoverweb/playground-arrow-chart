@@ -1,0 +1,103 @@
+// TODO: закомментировал части, отвечающие за подсветку (в будущем они будут использоваться)
+@import "src/static/styles/colors";
+
+.basicCheckboxContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  label {
+    display: inherit;
+  }
+}
+
+.basicCheckboxIconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  margin: 3px;
+  border-radius: 2px;
+  font-size: 22px;
+
+  &:not(.disabled) {
+    cursor: pointer;
+  }
+
+  &.indeterminate {
+    font-size: 18px;
+  }
+
+  &.default {
+    border: 1px solid var(--basic-250);
+    &.checked {
+      border: 1px solid var(--cyan-500);
+      background-color: var(--cyan-500);
+    }
+  }
+
+  &.primary {
+    border: 1px solid var(--cyan-500);
+    &.checked {
+      background-color: var(--cyan-500);
+    }
+  }
+
+  &.success {
+    border: 1px solid var(--success-600);
+    &.checked {
+      background-color: var(--success-600);
+    }
+  }
+
+  &.info {
+    border: 1px solid var(--blue-520);
+    &.checked {
+      background-color: var(--blue-520);
+    }
+  }
+  
+  &.warning {
+    border: 1px solid var(--warning-500);
+    &.checked {
+      background-color: var(--warning-500);
+    }
+  }
+
+  &.danger {
+    border: 1px solid var(--danger-400);
+    &.checked {
+      background-color: var(--danger-400);
+    }
+  }
+
+  &.disabled {
+    border: 1px solid var(--basic-250);
+    background-color: var(--basic-100);
+    &.checked {
+      border: 1px solid var(--basic-250);
+      background-color: var(--basic-250);
+    }
+  }
+
+  // &:hover:not(.disabled), &.focus:not(.disabled) {
+  //   box-shadow: 0px 0px 1px 7px var(--cyan-80);
+  //   &:not(.checked) {
+  //     background-color: var(--cyan-80);
+  //   }
+  // }
+
+  & .basicCheckboxIcon {
+    color: var(--basic-w);
+  }
+}
+
+.basicCheckboxInput {
+  width: 0;
+  height: 0;
+}
+
+.basicCheckboxLabel {
+  font-size: 16px;
+  margin-left: 8px;
+}

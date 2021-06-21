@@ -1,0 +1,104 @@
+// TODO: закомментировал части, отвечающие за подсветку (в будущем они будут использоваться)
+@import "src/static/styles/colors";
+
+.basicToggleContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 52px;
+  height: 32px;
+  padding-left: 0px;
+  color: var(--cyan-500);
+  background-color: var(--basic-070);
+  border: 1px solid var(--basic-200);
+  border-radius: 100px;
+  transition: 0.25s padding-left ease-out, 0.25s background-color ease-out;
+  
+  &:not(.disabled) {
+    cursor: pointer;
+  }
+
+  &.isNowOn {
+    padding-left: 20px;
+    background-color: var(--cyan-500);
+    border: 1px solid var(--cyan-500);
+  }
+  
+  &.primary {
+    color: var(--cyan-500);
+    border: 1px solid var(--cyan-500);
+    background-color: var(--cyan-80);
+    &.isNowOn {
+      background-color: var(--cyan-500);
+    }
+  }
+
+  &.success {
+    color: var(--success-600);
+    border: 1px solid var(--success-600);
+    background-color: var(--success-80);
+    &.isNowOn {
+      background-color: var(--success-600);
+    }
+  }
+
+  &.info {
+    color: var(--blue-520);
+    border: 1px solid var(--blue-520);
+    background-color: var(--blue-80);
+    &.isNowOn {
+      background-color: var(--blue-520);
+    }
+  }
+  
+  &.warning {
+    color: var(--warning-500);
+    border: 1px solid var(--warning-500);
+    background-color: var(--warning-80);
+    &.isNowOn {
+      background-color: var(--warning-500);
+    }
+  }
+
+  &.danger {
+    color: var(--danger-460);
+    border: 1px solid var(--danger-460);
+    background-color: var(--danger-80);
+    &.isNowOn {
+      background-color: var(--danger-460);
+    }
+  }
+
+  &.disabled, &.disabled.isNowOn {
+    color: var(--basic-w);
+    border: 1px solid var(--basic-200);
+    background-color: var(--basic-070);
+    & .toggleSwitch {
+      color: var(--basic-w);
+      background-color: var(--basic-200);
+    }
+  }
+
+  // &:hover:not(.disabled), &.focus:not(.disabled) {
+  //   box-shadow: 0px 0px 1px 7px var(--cyan-80);
+  // }
+}
+
+.toggleSwitch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  margin: 0 1px;
+  border: 0;
+  border-radius: 100px;
+  background-color: var(--background-w);
+  font-size: 30px;
+}
+
+.basicToggleInput {
+  width: 0;
+  height: 0;
+}

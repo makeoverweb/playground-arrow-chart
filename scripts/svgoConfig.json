@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    { "removeAttrs": true },
+    { "removeAttributesBySelector": {
+      "selector": "path",
+      "attributes": ["fill", "fill-rule", "clip-rule"]
+    }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+// TODO: закомментировал части, отвечающие за подсветку (в будущем они будут использоваться)
+@import "src/static/styles/colors";
+
+.basicRadioButtonContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.basicRadioButtonIconContainer {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-w);
+  border: 1px solid var(--basic-200);
+  border-radius: 50%;
+
+  &:not(.disabled) {
+    cursor: pointer;
+  }
+
+  &.checked {
+    border-color: var(--cyan-500);
+  }
+
+  &.primary {
+    border-color: var(--cyan-500);
+  }
+  
+  &.success {
+    border-color: var(--success-600);
+  }
+  
+  &.info {
+    border-color: var(--blue-520);
+  }
+  
+  &.warning {
+    border-color: var(--warning-500);
+  }
+  
+  &.danger {
+    border-color: var(--danger-400);
+  }
+
+  &.disabled {
+    border-color: var(--basic-200);
+    &:not(.checked) {
+      background-color: var(--basic-070);
+    }
+  }
+
+  // &:hover:not(.disabled), &.focus:not(.disabled) {
+  //   box-shadow: 0px 0px 1px 7px var(--cyan-80);
+  //   &:not(.checked) {
+  //     background-color: var(--cyan-80);
+  //   }
+  // }
+}
+
+.basicRadioButtonIcon {
+  width: 12px;
+  height: 12px;
+  background-color: var(--cyan-500);
+  border: 0;
+  border-radius: 50%;
+
+  &.primary {
+    background-color: var(--cyan-500);
+  }
+  
+  &.success {
+    background-color: var(--success-600);
+  }
+  
+  &.info {
+    background-color: var(--blue-520);
+  }
+  
+  &.warning {
+    background-color: var(--warning-500);
+  }
+  
+  &.danger {
+    background-color: var(--danger-400);
+  }
+
+  &.disabled {
+    background-color: var(--basic-200);
+  }
+}
+
+.basicRadioButtonLabel {
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.basicRadioButtonInput {
+  width: 0;
+  height: 0;
+}

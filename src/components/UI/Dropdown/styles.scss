@@ -1,0 +1,128 @@
+@import '../../../static/styles/colors';
+
+.dropdownWrapper {
+  position: relative; // ok
+  width: 100%; // ok
+  min-width: 100px; // ok
+
+  // ok
+  .label {
+    position: absolute; // ok
+    left: 16px; // ok
+    top: -20px; // ok
+    font-size: 14px; // ok
+    line-height: 1em; // ok
+    color: var(--basic-500); // ok
+  }
+
+  // ok
+  .relative {
+    position: relative; // ok
+  }
+
+  .input {
+    font-size: 16px; // ok
+    line-height: 1em; // ok
+    width: 100%; // ok
+    word-wrap: break-word; // ok
+    outline: 0; // ok
+    white-space: normal; // ok
+    min-height: 2em; // ok
+    background: var(--background-w); // ok
+    display: inline-block; // ok
+    padding: 8px 14px; // ok
+    // color: var(--basic-400); // ok
+    color: $basic-txt;
+    box-shadow: none; // ok
+    border: 1px solid var(--basic-200); // ok
+    border-radius: 2px; // ok
+
+    // ok
+    &:hover, &:focus {
+      border: 1px solid var(--cyan-500); // ok
+    }
+  }
+
+  // ok
+  .controllerButton {
+    position: absolute; // ok
+    bottom: 0; // ok
+    right: 10px; // ok
+    font-size: 28px; // ok
+    color: var(--basic-500); // ok
+    cursor: pointer; // ok
+    transform: rotate(90deg); // ok
+    border: 0; // ok
+
+    &.isOpen {
+      transform: rotate(0deg); // ok
+      bottom: -4px;
+      right: 6px;
+    }
+
+    &.isSelected {
+      font-size: 24px;
+      bottom: 2px;
+      right: 11px;
+    }
+  }
+}
+
+ // обертка для выпадайки
+.baseMenuWrapper {
+  position: absolute; // ok
+  width: 100%; // ok
+  height: 0; // ok
+  overflow: hidden; // ok
+  transition: height .3s; // ok
+
+  &.isOpen {
+    height: 300px; // ok
+  }
+
+  &.toUp {
+    bottom: 100%; // ok
+  }
+
+  // ul
+  .baseMenu {
+    max-height: 300px;
+    position: absolute; // ok
+    top: 8px; // ok
+    padding: 0; // ok
+    margin-top: 0; // ok
+    background-color: var(--background-w); // ok
+    width: 100%; // ok
+    // max-height: 20rem;
+    overflow-y: auto; // ok
+    overflow-x: hidden; // ok
+    outline: 0; // ok
+    transition: opacity .3s ease; // ok
+    border-radius: 2px; // ok
+    box-shadow: 0px 3px 4px rgba(59, 60, 69, 0.1), 0px 0px 3px rgba(59, 60, 69, 0.08); // ok
+    z-index: 1; // ok
+  }
+}
+
+
+// li
+.item {
+  position: relative;
+  cursor: pointer;
+  display: block;
+  height: auto;
+  text-align: left;
+  border-style: none;
+  line-height: 1em;
+  color: $basic-txt;
+  font-size: 1rem;
+  padding: 16px;
+  white-space: normal;
+  word-wrap: normal;
+
+  &.isActive {
+    background: rgba(129, 145, 179, .08);
+  }
+
+  .isSelected {}
+}

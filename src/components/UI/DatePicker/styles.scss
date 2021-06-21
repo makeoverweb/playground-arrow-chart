@@ -1,0 +1,129 @@
+@import '../../../static/styles/colors.scss';
+
+.inputContainer {
+  position: relative;
+  font-size: inherit;
+  span {
+    color: var(--basic-200);
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    font-size: 1.3rem;
+    display: flex !important;
+    height: 100%;
+  }
+  &:hover {
+    span {
+      color: var(--basic-400);
+    }
+  }
+}
+
+.datepicker_cnt {
+  position: relative;
+
+  &.disabled {
+    input {
+      cursor: default;
+    }
+  }
+
+  &.range {
+    input {
+      min-width: 220px;
+    }
+  }
+
+  input {
+    border: 1px solid var(--basic-200);
+    border-radius: 19.75px;
+    padding: 10px;
+    font-size: 80%;
+    line-height: 80%;
+    transition: all 0.25s ease;
+    outline: none;
+    &:hover {
+      border-color: var(--basic-400);
+    }
+  }
+
+  &.border_square {
+    input {
+      border-radius: 5px;
+    }
+  }
+
+}
+
+.customOverlay {
+  position: absolute;
+  background-color: #fff;
+  z-index: 2;
+
+  &.toUp {
+    bottom: 100%;
+  }
+}
+
+.select {
+  select {
+    border: none;
+    background: none;
+    padding: 5px;
+  }
+}
+
+:global {
+  .disabled {
+    & .DayPicker-Day {
+      cursor: default;
+    }
+
+    & .DayPickerInput {
+      cursor: default;
+    }
+  }
+
+  & .DayPickerInput-OverlayWrapper {
+    position: static;
+  }
+
+  .DayPicker-Day {
+    box-sizing: border-box;
+    display: table-cell;
+    padding: 0.5rem 0.4rem 0.4rem;
+    border-radius: 0;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  div.DayPicker-Month {
+    border-collapse: initial;
+  }
+
+  .Selectable {
+    div.DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+      border: none
+    }
+
+    div.DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+      background-color: #f0f8ff !important;
+      color: var(--blue-450);
+    }
+
+    .DayPicker-Day {
+      border-radius: 0 !important;
+    }
+
+    .DayPicker-Day--start {
+      border-top-left-radius: 50% !important;
+      border-bottom-left-radius: 50% !important;
+    }
+
+    .DayPicker-Day--end {
+      border-top-right-radius: 50% !important;
+      border-bottom-right-radius: 50% !important;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@import "./colors";
+
+@mixin blockShadow {
+  box-shadow: 0 0 2px 1px #{rgba(var(--purple-600), 0.4)};
+}
+
+@mixin one-line-with-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin strokeSingle($strokeWidth) {
+  // z-index: $zIndex;
+  position: relative;
+  background: transparent;
+  &::before {
+    content: attr(title);
+    position: absolute;
+    -webkit-text-stroke: $strokeWidth var(--basic-w); /* Chris Coyier's favorite color! */
+    z-index: -1;
+  }
+}
+
+
+@mixin invertDark($class) {
+  :root[theme='dark'] {
+  #{$class} {
+      filter: invert(1);
+    }
+  }
+}
+
+@mixin shake {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@mixin ellipse($size) {
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+  @content;
+}

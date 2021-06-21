@@ -1,0 +1,171 @@
+$cyan-50: #E5F3FF;
+$cyan-80: #D6EBFF;
+$cyan-200: #99CCFF;
+$cyan-330: #5BAAFB;
+$cyan-400: #2891F9;
+$cyan-500: #0680F9;
+$cyan-600: #0673E0;
+$cyan-700: #004D99;
+
+$orange-50: #FFF1E6;
+$orange-80: #FFE9D6;
+$orange-220: #FFC18D;
+$orange-340: #FFA052;
+$orange-400: #FF8F33;
+$orange-460: #FF8716;
+$orange-520: #FA7800;
+$orange-600: #F26600;
+
+$danger-50: #FFE8E5;
+$danger-80: #FFDAD6;
+$danger-200: #FFA399;
+$danger-330: #FF6655;
+$danger-400: #FF5338;
+$danger-460: #FF4529;
+$danger-500: #F92706;
+$danger-600: #CC1B00;
+
+$warning-50: #FFF9E5;
+$warning-80: #FFF5D6;
+$warning-200: #FFE799;
+$warning-300: #FFDB66;
+$warning-400: #FFD633;
+$warning-500: #FECE1A;
+$warning-600: #FFBF00;
+$warning-700: #E68A00;
+
+$success-50: #EAFBF3;
+$success-80: #DDF8EC;
+$success-200: #ABEDCE;
+$success-400: #52E09E;
+$success-530: #22C378;
+$success-600: #0AC46C;
+$success-700: #00B368;
+$success-750: #037C54;
+
+$blue-50: #E7EDFE;
+$blue-80: #D8E2FD;
+$blue-220: #97B1F9;
+$blue-380: #4675F5;
+$blue-450: #2B5FEE;
+$blue-520: #1F50D8;
+$blue-600: #1A42B3;
+$blue-700: #0F308A;
+
+$purple-50: #F4EBFA;
+$purple-80: #EEDFF6;
+$purple-200: #D3AEEA;
+$purple-360: #B06ED8;
+$purple-420: #A05EC9;
+$purple-500: #8E41BE;
+$purple-600: #75359D;
+$purple-700: #592877;
+
+$basic-w: #FFFFFF;
+$basic-020: #FAFBFC;
+$basic-030: #F5F6F9;
+$basic-050: #EFF2F5;
+$basic-070: #E7EBF1;
+$basic-100: #DEE3ED;
+$basic-150: #D1D6E0;
+$basic-200: #C2C8D6;
+$basic-250: #B5BBC9;
+$basic-300: #A6AEBF;
+$basic-350: #97A1B4;
+$basic-400: #8C95A8;
+$basic-500: #747B8B;
+$basic-600: #5C6170;
+$basic-700: #464853;
+$basic-750: #3B3C45;
+$basic-800: #2F3037;
+$basic-840: #25262C;
+$basic-txt: #212226;
+$basic-900: #1F1F23;
+
+
+// Для импорта в tsx файлы
+:export {
+  cyan50: $cyan-50;
+  cyan80: $cyan-80;
+  cyan200: $cyan-200;
+  cyan330: $cyan-330;
+  cyan400: $cyan-400;
+  cyan500: $cyan-500;
+  cyan600: $cyan-600;
+  cyan700: $cyan-700;
+
+  orange50: $orange-50;
+  orange80: $orange-80;
+  orange220: $orange-220;
+  orange340: $orange-340;
+  orange400: $orange-400;
+  orange460: $orange-460;
+  orange520: $orange-520;
+  orange600: $orange-600;
+
+  danger50: $danger-50;
+  danger80: $danger-80;
+  danger200: $danger-200;
+  danger330: $danger-330;
+  danger400: $danger-400;
+  danger-460: $danger-460;
+  danger500: $danger-500;
+  danger600: $danger-600;
+
+  warning50: $warning-50;
+  warning80: $warning-80;
+  warning200: $warning-200;
+  warning300: $warning-300;
+  warning400: $warning-400;
+  warning500: $warning-500;
+  warning600: $warning-600;
+  warning700: $warning-700;
+
+  success50: $success-50;
+  success80: $success-80;
+  success200: $success-200;
+  success400: $success-400;
+  success530: $success-530;
+  success600: $success-600;
+  success700: $success-700;
+  success750: $success-750;
+
+  blue50: $blue-50;
+  blue80: $blue-80;
+  blue220: $blue-220;
+  blue380: $blue-380;
+  blue450: $blue-450;
+  blue520: $blue-520;
+  blue600: $blue-600;
+  blue700: $blue-700;
+
+  purple50: $purple-50;
+  purple80: $purple-80;
+  purple200: $purple-200;
+  purple360: $purple-360;
+  purple420: $purple-420;
+  purple500: $purple-500;
+  purple600: $purple-600;
+  purple700: $purple-700;
+
+  basicw: $basic-w;
+  basic020: $basic-020;
+  basic030: $basic-030;
+  basic050: $basic-050;
+  basic070: $basic-070;
+  basic100: $basic-100;
+  basic150: $basic-150;
+  basic200: $basic-200;
+  basic250: $basic-250;
+  basic300: $basic-300;
+  basic350: $basic-350;
+  basic400: $basic-400;
+  basic500: $basic-500;
+  basic600: $basic-600;
+  basic700: $basic-700;
+  basic750: $basic-750;
+  basic800: $basic-800;
+  basic840: $basic-840;
+  basicText: $basic-txt;
+  basic900: $basic-900;
+}

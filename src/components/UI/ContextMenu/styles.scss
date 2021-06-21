@@ -1,0 +1,31 @@
+@import "src/static/styles/colors";
+
+.contextMenuContainer {
+  font-size: 1rem;
+  position: fixed;
+  display: flex;
+  flex-flow: column;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.05);
+  background: var(--basic-750);
+  color: var(--basic-200);
+  font-weight: 400;
+  visibility: hidden;
+  z-index: 9999999;
+  .menuItem {
+   cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 7px;
+    padding: 10px 8px;
+    &:hover {
+      background: #{rgba(var(--basic-750), 0.05)};
+    }
+    & > span {
+      font-size: 1.4rem !important;
+      margin-right: 10px;
+    }
+  }
+}

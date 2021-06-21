@@ -1,0 +1,85 @@
+@import "src/static/styles/colors";
+@import "src/static/styles/fonts";
+
+.accordion {
+  --content-height: 0;
+  --arrow-direction: -90deg;
+  border-radius: 2px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+
+  &.withOutArrow {
+    cursor: pointer;
+  }
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  font-size: $LABEL;
+  font-weight: 600;
+  color: var(--basic-700);
+}
+
+.icon,
+.arrowWrapper {
+  width: 24px;
+  height: 24px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.icon {
+  margin-right: 10px;
+  color: var(--basic-600);
+  font-size: 24px;
+}
+
+.arrowWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  color: var(--basic-600);
+  border-radius: 2px;
+  background-color: var(--background-w);
+  font-size: 18px;
+  cursor: pointer;
+
+  .arrow {
+    width: 18px;
+    height: 18px;
+    transform: rotate(var(--arrow-direction));
+    transition: transform .3s;
+    will-change: transform;
+  }
+}
+
+.contentWrapper {
+  height: var(--content-height);
+  transition: height .3s;
+  overflow: hidden;
+  will-change: height;
+}
+
+.content {
+
+}
+
+.darkGray {
+  background-color: var(--basic-750);
+
+  .header {
+    border-bottom-color: var(--basic-800);
+
+    .arrowWrapper {
+      background-color: var(--basic-800);
+    }
+  }
+}

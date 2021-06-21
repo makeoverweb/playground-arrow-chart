@@ -1,0 +1,91 @@
+{
+  "startDate": "2020-04-02",
+  "topEndDate": "2021-01-09",
+  "bottomEndDate": "2021-05-22",
+  "events": [
+    {
+      "title": "Подготовительные работы",
+      "topEndDate": "2020-04-05",
+      "bottomEndDate": "2020-04-05",
+      "bottomColor": "darkGreen"
+    },
+    {
+      "title": "Земляные работы",
+      "topEndDate": "2020-04-15",
+      "bottomEndDate": "2020-04-17",
+      "bottomColor": "darkGreen"
+    },
+    {
+      "title": "Ж/б каркас здания",
+      "topEndDate": "2020-04-30",
+      "bottomEndDate": "2020-05-15",
+      "bottomColor": "darkGreen"
+    },
+    {
+      "title": "Архитектурные решения (лестницы, шахты, входн.группы)",
+      "topEndDate": "2020-05-31",
+      "bottomEndDate": "2020-06-19",
+      "bottomColor": "darkGreen"
+    },
+    {
+      "title": "Наружная отделка блока начальных классов",
+      "topEndDate": "2020-07-06",
+      "bottomEndDate": "2020-08-10",
+      "bottomColor": "red"
+    },
+    {
+      "title": "Кровля",
+      "topEndDate": "2020-08-20",
+      "bottomEndDate": "2020-12-30",
+      "bottomColor": "yellow"
+    },
+    {
+      "title": "Наружные инженерные сети",
+      "topEndDate": "2020-08-31",
+      "bottomEndDate": "2021-01-08",
+      "bottomColor": "yellow"
+    },
+    {
+      "title": "Заполнение проемов (окна, двери, перегородки)",
+      "topEndDate": "2020-09-30",
+      "bottomEndDate": "2021-02-10",
+      "bottomColor": "darkGreen"
+    },
+    {
+      "title": "Наружная отделка блока столовой",
+      "topEndDate": "2020-10-15",
+      "bottomEndDate": "2021-02-25",
+      "bottomColor": "grey"
+    },
+    {
+      "title": "Внутренние инженерные сети",
+      "topEndDate": "2020-10-31",
+      "bottomEndDate": "2021-03-13",
+      "bottomColor": "grey"
+    },
+    {
+      "title": "Внутренняя отделка",
+      "topEndDate": "2020-11-15",
+      "bottomEndDate": "2021-03-28",
+      "bottomColor": "grey"
+    },
+    {
+      "title": "Благоустройство территории",
+      "topEndDate": "2020-11-30",
+      "bottomEndDate": "2021-04-12",
+      "bottomColor": "grey"
+    },
+    {
+      "title": "Монтаж оборудования",
+      "topEndDate": "2020-12-31",
+      "bottomEndDate": "2021-05-13",
+      "bottomColor": "grey"
+    },
+    {
+      "title": "Пусконаладочные работы",
+      "topEndDate": "2021-01-09",
+      "bottomEndDate": "2021-05-22",
+      "bottomColor": "grey"
+    }
+  ]
+}

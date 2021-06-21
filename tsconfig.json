@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "webworker"
+    ],
+    "strictNullChecks": false, // проверка на нулевые значения для свойств
+    "noImplicitAny": false, // проверка на указание типа аргументов
+    "noImplicitThis": true, // проверка на использование this
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "suppressExcessPropertyErrors": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "downlevelIteration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "isolatedModules": false,
+    "strict": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "resolveJsonModule": true,
+    "noEmit": false,
+    "jsx": "preserve",
+    "typeRoots": [
+      "./src/types",
+      "./node_modules/@types"
+    ],
+    "outDir": "build/dist",
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*",
+    "node_modules/@loadable/component",
+    "node_modules/@bit"
+  ],
+  "exclude": [
+    "./src/types",
+    "node_modules"
+  ]
+}

@@ -1,0 +1,1675 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2019-11-08 09:47+0300\n"
+"Mime-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/containers/AppErrorBoundaryContainer/AppErrorBoundaryContainer.tsx:9
+#~ msgid "\"containers.appErrorBoundaryMessageadmin@csp.ru\""
+#~ msgstr ""
+
+#: src/components/ScheduleActualValuesForm/ScheduleActualValuesForm.tsx:47
+#~ msgid "MEASURE_UNITS[get(node, 'model_job_id.unit', null)]"
+#~ msgstr ""
+
+#: src/screens/AuthScreen/AuthScreen.tsx:51
+#~ msgid "auth.privacyPolicy"
+#~ msgstr "Privacy policy"
+
+#: src/components/UI/Modal/SimpleConfirmAbortModal/SimpleConfirmAbortModal.tsx:13
+#~ msgid "basic.abort"
+#~ msgstr "Abort"
+
+#: src/components/ScheduleListBuilder/ScheduleListBuilder.tsx:49
+#: src/screens/ProjectScreen/ProjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardHeader.tsx:47
+#~ msgid "basic.actions"
+#~ msgstr "Actions"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardHeader.tsx:63
+#~ msgid "basic.actualCost"
+#~ msgstr "Actual cost"
+
+#: src/screens/ObjectScreen/ObjectScreen.tsx:87
+#: src/screens/ProjectScreen/ProjectScreen.tsx:67
+#~ msgid "basic.addToFavorite"
+#~ msgstr "Add to favorite"
+
+#: src/screens/ObjectScreen/ObjectTabs/MainCard/MainCard.tsx:33
+#~ msgid "basic.address"
+#~ msgstr "Address"
+
+#: src/components/CreateNewObject/Footer/Footer.tsx:18
+#~ msgid "basic.append"
+#~ msgstr "Append"
+
+#: src/components/Filters/ObjectsFilter/ObjectsFilter.tsx:85
+#: src/components/Filters/ProjectsFilter/ProjectsFilter.tsx:85
+#~ msgid "basic.apply"
+#~ msgstr "Apply"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:187
+#~ msgid "basic.attention"
+#~ msgstr "Attention"
+
+#: src/components/CreateNewObject/Footer/Footer.tsx:17
+#~ msgid "basic.back"
+#~ msgstr "Back"
+
+#: src/components/Filters/ObjectsFilter/ObjectsFilter.tsx:52
+#: src/components/Filters/ProjectsFilter/ProjectsFilter.tsx:52
+#~ msgid "basic.colors.gray"
+#~ msgstr "Gray"
+
+#: src/components/Filters/ObjectsFilter/ObjectsFilter.tsx:51
+#: src/components/Filters/ProjectsFilter/ProjectsFilter.tsx:51
+#~ msgid "basic.colors.green"
+#~ msgstr "Green"
+
+#: src/components/Filters/ObjectsFilter/ObjectsFilter.tsx:49
+#: src/components/Filters/ProjectsFilter/ProjectsFilter.tsx:49
+#~ msgid "basic.colors.red"
+#~ msgstr "Red"
+
+#: src/components/Filters/ObjectsFilter/ObjectsFilter.tsx:50
+#: src/components/Filters/ProjectsFilter/ProjectsFilter.tsx:50
+#~ msgid "basic.colors.yellow"
+#~ msgstr "Yellow"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardHeader.tsx:56
+#~ msgid "basic.construction"
+#~ msgstr "Construction"
+
+#: src/components/CreateNewObject/Footer/Footer.tsx:18
+#~ msgid "basic.continue"
+#~ msgstr "Continue"
+
+#: src/components/SheduleTree/ScheduleActualValuesForm/ScheduleActualValuesForm.tsx:32
+#: src/components/SheduleTree/ScheduleActualValuesForm/ScheduleActualValuesModal.tsx:42
+#~ msgid "basic.cost"
+#~ msgstr "Cost"
+
+#: src/screens/ProjectScreen/ProjectTabs/MainCard/MainCard.tsx:61
+#~ msgid "basic.createObject"
+#~ msgstr "Add object"
+
+#: src/screens/ProjectsListScreen/ProjectsListScreen.tsx:55
+#~ msgid "basic.createProject"
+#~ msgstr "New project"
+
+#: src/constants/locale.tsx:79
+msgid "basic.date.April"
+msgstr "April"
+
+#: src/constants/locale.tsx:83
+msgid "basic.date.August"
+msgstr "August"
+
+#: src/constants/locale.tsx:87
+msgid "basic.date.December"
+msgstr "December"
+
+#: src/constants/locale.tsx:77
+msgid "basic.date.February"
+msgstr "February"
+
+#: src/constants/locale.tsx:98
+msgid "basic.date.Fr"
+msgstr "Fr"
+
+#: src/constants/locale.tsx:95
+msgid "basic.date.Friday"
+msgstr "Friday"
+
+#: src/constants/locale.tsx:76
+msgid "basic.date.January"
+msgstr "January"
+
+#: src/constants/locale.tsx:82
+msgid "basic.date.July"
+msgstr "July"
+
+#: src/constants/locale.tsx:81
+msgid "basic.date.June"
+msgstr "June"
+
+#: src/constants/locale.tsx:78
+msgid "basic.date.March"
+msgstr "March"
+
+#: src/constants/locale.tsx:80
+msgid "basic.date.May"
+msgstr "May"
+
+#: src/constants/locale.tsx:98
+msgid "basic.date.Mo"
+msgstr "Mo"
+
+#: src/constants/locale.tsx:91
+msgid "basic.date.Monday"
+msgstr "Monday"
+
+#: src/constants/locale.tsx:86
+msgid "basic.date.November"
+msgstr "November"
+
+#: src/constants/locale.tsx:85
+msgid "basic.date.October"
+msgstr "October"
+
+#: src/constants/locale.tsx:98
+msgid "basic.date.Sa"
+msgstr "Sa"
+
+#: src/constants/locale.tsx:96
+msgid "basic.date.Saturday"
+msgstr "Saturday"
+
+#: src/constants/locale.tsx:84
+msgid "basic.date.September"
+msgstr "September"
+
+#: src/constants/locale.tsx:98
+msgid "basic.date.Su"
+msgstr "Su"
+
+#: src/constants/locale.tsx:90
+msgid "basic.date.Sunday"
+msgstr "Sunday"
+
+#: src/constants/locale.tsx:98
+msgid "basic.date.Th"
+msgstr "Th"
+
+#: src/constants/locale.tsx:94
+msgid "basic.date.Thursday"
+msgstr "Thursday"
+
+#: src/constants/locale.tsx:98
+msgid "basic.date.Tu"
+msgstr "Tu"
+
+#: src/constants/locale.tsx:92
+msgid "basic.date.Tuesday"
+msgstr "Tuesday"
+
+#: src/constants/locale.tsx:98
+msgid "basic.date.We"
+msgstr "We"
+
+#: src/constants/locale.tsx:93
+msgid "basic.date.Wednesday"
+msgstr "Wednesday"
+
+#: src/constants/locale.tsx:101
+msgid "basic.date.next month"
+msgstr "next month"
+
+#: src/constants/locale.tsx:101
+msgid "basic.date.previous month"
+msgstr "previous month"
+
+#: src/components/GGChart/GGChart.tsx:60
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/Gunnt.tsx:57
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardHeader.tsx:58
+#~ msgid "basic.dateEnd"
+#~ msgstr "Date end"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntViewModel.tsx:35
+#: src/screens/ObjectScreen/ObjectViewModel.ts:30
+#~ msgid "basic.dateFormat.DD.MM.YY"
+#~ msgstr "MM-DD-YY"
+
+#: src/components/GGChart/helpers/calculateTimeGrid.ts:54
+#: src/components/GGChart/helpers/calculateTimeGrid.ts:56
+#: src/components/GGChart/helpers/calculateTimeGrid.ts:57
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/FactValuesByDay/FactValuesByDayHeader.tsx:34
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/FactValuesByDay/FactValuesByDayHeader.tsx:35
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/FactValuesByDay/FactValuesByDayViewModel.tsx:211
+#~ msgid "basic.dateFormat.DD.MM.YYYY"
+#~ msgstr "MM-DD-YYYY"
+
+#: src/components/GGChart/GGChart.tsx:56
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/Gunnt.tsx:56
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardHeader.tsx:57
+#~ msgid "basic.dateStart"
+#~ msgstr "Date start"
+
+#: src/components/UI/Modal/SimpleConfirmAbortModal/SimpleConfirmAbortModal.tsx:21
+#~ msgid "basic.delete"
+#~ msgstr "Delete"
+
+#: src/screens/ProjectScreen/ProjectTabs/MainCard/MainCard.tsx:47
+#~ msgid "basic.developer"
+#~ msgstr "Developer"
+
+#: src/components/SheduleTree/ScheduleNode/ScheduleNodeBody.tsx:110
+#~ msgid "basic.elementType"
+#~ msgstr "Element"
+
+#: src/screens/AuthScreen/Layouts/SignInLayout/index.tsx:20
+#~ msgid "basic.enterSystem"
+#~ msgstr "Enter"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:169
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:284
+#~ msgid "basic.error"
+#~ msgstr "Error"
+
+#: src/components/SheduleTree/ScheduleActualValuesForm/ScheduleActualValuesModal.tsx:44
+#~ msgid "basic.escape"
+#~ msgstr "Escape"
+
+#: src/components/Header/Header_old_version_backup.tsx:52
+#~ msgid "basic.exit"
+#~ msgstr "Exit"
+
+#: src/components/GGChart/GGChart.tsx:68
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/Gunnt.tsx:61
+#~ msgid "basic.fact"
+#~ msgstr "Fact"
+
+#: src/components/GGChart/GGChart.tsx:76
+#~ msgid "basic.factFinance"
+#~ msgstr "Financial fact"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardHeader.tsx:61
+#~ msgid "basic.factValue"
+#~ msgstr "Fact value"
+
+#: src/screens/ProjectScreen/ProjectTabs/MainCard/MainCard.tsx:49
+#~ msgid "basic.filters"
+#~ msgstr "Filter"
+
+#: src/screens/AuthScreen/Layouts/SignInLayout/index.tsx:17
+#~ msgid "basic.forgotPass"
+#~ msgstr "Forgot your password?"
+
+#: src/components/Filters/ObjectsFilter/ObjectsFilter.tsx:58
+#: src/components/Filters/ProjectsFilter/ProjectsFilter.tsx:58
+#~ msgid "basic.from"
+#~ msgstr "From"
+
+#: src/screens/ObjectScreen/ObjectScreen.tsx:87
+#: src/screens/ProjectScreen/ProjectScreen.tsx:67
+#~ msgid "basic.inTheFavorites"
+#~ msgstr ""
+
+#: src/screens/ProjectScreen/ProjectTabs/MainCard/MainCard.tsx:55
+#~ msgid "basic.investor"
+#~ msgstr "Investor"
+
+#: src/screens/AuthScreen/Layouts/SignUpLayout/index.tsx:12
+#~ msgid "basic.login"
+#~ msgstr "Login"
+
+#: src/components/SheduleTree/ScheduleActualValuesForm/ScheduleActualValuesForm.tsx:30
+#: src/components/SheduleTree/ScheduleActualValuesForm/ScheduleActualValuesModal.tsx:40
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardHeader.tsx:59
+#~ msgid "basic.measure"
+#~ msgstr "Measure"
+
+#: src/constants/locale.tsx:42
+msgid "basic.measure_si_power.cubic"
+msgstr ""
+
+#: src/constants/locale.tsx:41
+msgid "basic.measure_si_power.square"
+msgstr ""
+
+#: src/constants/locale.tsx:46
+msgid "basic.measure_si_power_full.cubic"
+msgstr ""
+
+#: src/constants/locale.tsx:45
+msgid "basic.measure_si_power_full.square"
+msgstr ""
+
+#: src/constants/locale.tsx:4
+msgid "basic.measure_si_prefix.centi"
+msgstr ""
+
+#: src/constants/locale.tsx:6
+msgid "basic.measure_si_prefix.hecto"
+msgstr ""
+
+#: src/constants/locale.tsx:5
+msgid "basic.measure_si_prefix.kilo"
+msgstr ""
+
+#: src/constants/locale.tsx:17
+msgid "basic.measure_si_prefix.linear"
+msgstr ""
+
+#: src/constants/locale.tsx:7
+msgid "basic.measure_si_prefix.mega"
+msgstr ""
+
+#: src/constants/locale.tsx:3
+msgid "basic.measure_si_prefix.milli"
+msgstr ""
+
+#: src/constants/locale.tsx:7
+#~ msgid "basic.measure_si_prefix.ton"
+#~ msgstr ""
+
+#: src/constants/locale.tsx:11
+msgid "basic.measure_si_prefix_full.centi"
+msgstr "centi"
+
+#: src/constants/locale.tsx:13
+msgid "basic.measure_si_prefix_full.hecto"
+msgstr "hecto"
+
+#: src/constants/locale.tsx:12
+msgid "basic.measure_si_prefix_full.kilo"
+msgstr "kilo"
+
+#: src/constants/locale.tsx:29
+msgid "basic.measure_si_prefix_full.linear"
+msgstr "linear"
+
+#: src/constants/locale.tsx:14
+msgid "basic.measure_si_prefix_full.mega"
+msgstr "mega"
+
+#: src/constants/locale.tsx:10
+msgid "basic.measure_si_prefix_full.milli"
+msgstr "milli"
+
+#: src/constants/locale.tsx:25
+msgid "basic.measure_si_unit.ar"
+msgstr "a"
+
+#: src/constants/locale.tsx:22
+msgid "basic.measure_si_unit.gram"
+msgstr "g"
+
+#: src/constants/locale.tsx:24
+msgid "basic.measure_si_unit.kit"
+msgstr "k"
+
+#: src/constants/locale.tsx:21
+msgid "basic.measure_si_unit.liter"
+msgstr "l"
+
+#: src/constants/locale.tsx:19
+msgid "basic.measure_si_unit.meter"
+msgstr "m"
+
+#: src/constants/locale.tsx:23
+msgid "basic.measure_si_unit.pascal"
+msgstr "p"
+
+#: src/constants/locale.tsx:20
+msgid "basic.measure_si_unit.percent"
+msgstr "%"
+
+#: src/constants/locale.tsx:18
+msgid "basic.measure_si_unit.piece"
+msgstr "p"
+
+#: src/constants/locale.tsx:26
+msgid "basic.measure_si_unit.ton"
+msgstr "t"
+
+#: src/constants/locale.tsx:37
+msgid "basic.measure_si_unit_full.ar"
+msgstr "ar"
+
+#: src/constants/locale.tsx:34
+msgid "basic.measure_si_unit_full.gram"
+msgstr "gram"
+
+#: src/constants/locale.tsx:36
+msgid "basic.measure_si_unit_full.kit"
+msgstr "kit"
+
+#: src/constants/locale.tsx:33
+msgid "basic.measure_si_unit_full.liter"
+msgstr "liter"
+
+#: src/constants/locale.tsx:31
+msgid "basic.measure_si_unit_full.meter"
+msgstr "meter"
+
+#: src/constants/locale.tsx:35
+msgid "basic.measure_si_unit_full.pascal"
+msgstr "pascal"
+
+#: src/constants/locale.tsx:32
+msgid "basic.measure_si_unit_full.percent"
+msgstr "percent"
+
+#: src/constants/locale.tsx:30
+msgid "basic.measure_si_unit_full.piece"
+msgstr "piece"
+
+#: src/constants/locale.tsx:38
+msgid "basic.measure_si_unit_full.ton"
+msgstr "ton"
+
+#: src/constants/locale.tsx:71
+msgid "basic.measure_units.ar"
+msgstr ""
+
+#: src/constants/locale.tsx:57
+msgid "basic.measure_units.centimeter"
+msgstr ""
+
+#: src/constants/locale.tsx:60
+msgid "basic.measure_units.cubic_centimeter"
+msgstr ""
+
+#: src/constants/locale.tsx:52
+msgid "basic.measure_units.cubic_meter"
+msgstr "m\\u00B3"
+
+#: src/constants/locale.tsx:63
+msgid "basic.measure_units.gram"
+msgstr ""
+
+#: src/constants/locale.tsx:65
+msgid "basic.measure_units.gram_per_cubic_centimeter"
+msgstr ""
+
+#: src/constants/locale.tsx:69
+msgid "basic.measure_units.hectare"
+msgstr ""
+
+#: src/constants/locale.tsx:72
+msgid "basic.measure_units.kilogram"
+msgstr ""
+
+#: src/constants/locale.tsx:64
+msgid "basic.measure_units.kilogram_per_cubic_meter"
+msgstr ""
+
+#: src/constants/locale.tsx:68
+msgid "basic.measure_units.kilometer"
+msgstr ""
+
+#: src/constants/locale.tsx:70
+msgid "basic.measure_units.kit"
+msgstr ""
+
+#: src/constants/locale.tsx:54
+msgid "basic.measure_units.linear_meter"
+msgstr "linear meter"
+
+#: src/constants/locale.tsx:61
+msgid "basic.measure_units.liter"
+msgstr ""
+
+#: src/constants/locale.tsx:66
+msgid "basic.measure_units.megapascal"
+msgstr ""
+
+#: src/constants/locale.tsx:51
+msgid "basic.measure_units.meter"
+msgstr "m"
+
+#: src/constants/locale.tsx:62
+msgid "basic.measure_units.milliliter"
+msgstr ""
+
+#: src/constants/locale.tsx:58
+msgid "basic.measure_units.millimeter"
+msgstr ""
+
+#: src/constants/locale.tsx:3
+#~ msgid "basic.measure_units.none"
+#~ msgstr ""
+
+#: src/constants/locale.tsx:67
+msgid "basic.measure_units.pascal"
+msgstr ""
+
+#: src/constants/locale.tsx:55
+msgid "basic.measure_units.percent"
+msgstr "%"
+
+#: src/constants/locale.tsx:50
+msgid "basic.measure_units.piece"
+msgstr "piece"
+
+#: src/constants/locale.tsx:59
+msgid "basic.measure_units.square_centimeter"
+msgstr ""
+
+#: src/constants/locale.tsx:53
+msgid "basic.measure_units.square_meter"
+msgstr "m\\u00B2"
+
+#: src/constants/locale.tsx:56
+msgid "basic.measure_units.ton"
+msgstr "ton"
+
+#: src/constants/locale.tsx:120
+msgid "basic.meta.field.builtUpArea"
+msgstr "Build uo area"
+
+#: src/constants/locale.tsx:126
+msgid "basic.meta.field.lanes"
+msgstr "Lanes"
+
+#: src/constants/locale.tsx:127
+msgid "basic.meta.field.length"
+msgstr "Length"
+
+#: src/constants/locale.tsx:121
+msgid "basic.meta.field.livingArea"
+msgstr "Living area"
+
+#: src/constants/locale.tsx:122
+msgid "basic.meta.field.seats"
+msgstr "Seats"
+
+#: src/constants/locale.tsx:125
+msgid "basic.meta.field.surface"
+msgstr "Surface"
+
+#: src/constants/locale.tsx:123
+msgid "basic.meta.field.totalArea"
+msgstr "Total area"
+
+#: src/constants/locale.tsx:124
+msgid "basic.meta.field.tradingArea"
+msgstr "Trading area"
+
+#: src/components/SheduleTree/ScheduleActualValuesForm/ScheduleActualValuesForm.tsx:42
+#: src/components/SheduleTree/ScheduleListBuilder/ScheduleListBuilder.tsx:29
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntHeader.tsx:72
+#~ msgid "basic.noDataAvailable"
+#~ msgstr "No data"
+
+#: src/components/UI/ProgressBar/index.tsx:41
+msgid "basic.noDataShort"
+msgstr "N/A"
+
+#: src/screens/ObjectScreen/ObjectScreen.tsx:87
+#: src/screens/ProjectScreen/ProjectScreen.tsx:67
+#~ msgid "basic.notInTheFavorites"
+#~ msgstr "Not in the favorites"
+
+#: src/constants/locale.tsx:116
+msgid "basic.object_types.infrastructure"
+msgstr "Infrastructure"
+
+#: src/constants/locale.tsx:117
+msgid "basic.object_types.other"
+msgstr "Other"
+
+#: src/constants/locale.tsx:114
+msgid "basic.object_types.residential"
+msgstr "Residential"
+
+#: src/constants/locale.tsx:115
+msgid "basic.object_types.road"
+msgstr "Road"
+
+#: src/screens/ProjectScreen/ProjectTabs/MainCard/MainCard.tsx:42
+#~ msgid "basic.objects"
+#~ msgstr "Objects"
+
+#: src/components/UI/Modal/SimpleConfirmAbortModal/SimpleConfirmAbortModal.tsx:17
+#~ msgid "basic.ok"
+#~ msgstr "OK"
+
+#: src/components/DropZone/DropZone.tsx:14
+#~ msgid "basic.or"
+#~ msgstr "or"
+
+#: src/utils/helpers/text.ts:85
+#~ msgid "basic.per"
+#~ msgstr "per"
+
+#: src/components/GGChart/GGChart.tsx:64
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/Gunnt.tsx:60
+#~ msgid "basic.plan"
+#~ msgstr "Plan"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardHeader.tsx:62
+#~ msgid "basic.planCost"
+#~ msgstr "Plan cost"
+
+#: src/components/GGChart/GGChart.tsx:72
+#~ msgid "basic.planFinance"
+#~ msgstr "Financial plan"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardHeader.tsx:60
+#~ msgid "basic.planValue"
+#~ msgstr "Plan value"
+
+#: src/constants/locale.tsx:111
+msgid "basic.project_types.null"
+msgstr "Other"
+
+#: src/constants/locale.tsx:108
+msgid "basic.project_types.residential_complex"
+msgstr "Residential complex"
+
+#: src/constants/locale.tsx:110
+msgid "basic.project_types.shopping_center"
+msgstr "Shopping center"
+
+#: src/constants/locale.tsx:109
+msgid "basic.project_types.sport_complex"
+msgstr "Sport complex"
+
+#: src/screens/ObjectScreen/ObjectTabs/MainCard/MainCard.tsx:41
+#~ msgid "basic.quantityApartments"
+#~ msgstr "Quantity of apartments"
+
+#: src/screens/ObjectScreen/ObjectTabs/MainCard/MainCard.tsx:49
+#~ msgid "basic.quantityFloors"
+#~ msgstr "Quantity of floors"
+
+#: src/components/Widgets/FormatDateToQuarter/FormatDateToQuarter.tsx:21
+#~ msgid "basic.quarter"
+#~ msgstr "Quarter"
+
+#: src/screens/AuthScreen/Layouts/SignInLayout/index.tsx:12
+#~ msgid "basic.registration"
+#~ msgstr "Registration"
+
+#: src/screens/ObjectScreen/ObjectScreen.tsx:87
+#: src/screens/ProjectScreen/ProjectScreen.tsx:67
+#~ msgid "basic.removeFromFavorites"
+#~ msgstr "Remove from favorites"
+
+#: src/constants/locale.tsx:130
+msgid "basic.report_fact_type.foreman"
+msgstr "Foreman"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/FactValuesByDay/FactValuesByDayViewModel.tsx:112
+#~ msgid "basic.report_fact_type.mobile"
+#~ msgstr "mobile app"
+
+#: src/constants/locale.tsx:131
+msgid "basic.report_fact_type.revisor"
+msgstr "Revisor"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/FactValuesByDay/FactValuesByDayViewModel.tsx:115
+#~ msgid "basic.report_fact_type.web"
+#~ msgstr "object constructor"
+
+#: src/components/Filters/ObjectsFilter/ObjectsFilter.tsx:84
+#: src/components/Filters/ProjectsFilter/ProjectsFilter.tsx:84
+#~ msgid "basic.reset"
+#~ msgstr "Reset"
+
+#: src/components/SheduleTree/ScheduleActualValuesForm/ScheduleActualValuesModal.tsx:44
+#~ msgid "basic.save"
+#~ msgstr "Save"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardHeader.tsx:36
+#~ msgid "basic.selectAll"
+#~ msgstr "Select all"
+
+#: src/components/Widgets/MainInfoTopWidget/MainInfoTopWidget.tsx:29
+#~ msgid "basic.showOnMap"
+#~ msgstr "Show on map"
+
+#: src/screens/AuthScreen/Layouts/SignInLayout/index.tsx:11
+#~ msgid "basic.signIn"
+#~ msgstr "SIGN IN"
+
+#: src/components/UI/Toast/index.tsx:9
+msgid "basic.success.request.create"
+msgstr "Success create request"
+
+#: src/components/UI/Toast/index.tsx:7
+msgid "basic.success.request.error"
+msgstr "Error"
+
+#: src/components/Filters/ObjectsFilter/ObjectsFilter.tsx:64
+#: src/components/Filters/ProjectsFilter/ProjectsFilter.tsx:64
+#~ msgid "basic.to"
+#~ msgstr "To"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardHeader.tsx:37
+#~ msgid "basic.unselectAll"
+#~ msgstr "Unselect all"
+
+#: src/components/Gallery/Gallery.tsx:55
+#~ msgid "basic.upload.image"
+#~ msgstr "Upload image"
+
+#: src/screens/ObjectScreen/ObjectTabs/ObjectGallery/ObjectGalleryViewModel.tsx:79
+#~ msgid "basic.uploadImage.success"
+#~ msgstr "Upload image success"
+
+#: src/components/SheduleTree/ScheduleActualValuesForm/ScheduleActualValuesForm.tsx:31
+#: src/components/SheduleTree/ScheduleActualValuesForm/ScheduleActualValuesModal.tsx:41
+#~ msgid "basic.value"
+#~ msgstr "Value"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntHeader.tsx:52
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardHeader.tsx:53
+#~ msgid "basic.versions"
+#~ msgstr "Versions"
+
+#: src/screens/ProjectScreen/ProjectTabs/MainCard/MainCard.tsx:47
+#: src/screens/ProjectsListScreen/ProjectsListScreen.tsx:44
+#~ msgid "basic.view.onList"
+#~ msgstr "List"
+
+#: src/screens/ProjectScreen/ProjectTabs/MainCard/MainCard.tsx:48
+#~ msgid "basic.view.onMap"
+#~ msgstr "Map"
+
+#: src/screens/AuthScreen/Layouts/SignInLayout/index.tsx:16
+#~ msgid "basic.welcome"
+#~ msgstr "Welcome"
+
+#: src/components/SheduleTree/ScheduleNode/ScheduleNodeBody.tsx:106
+#~ msgid "basic.workType"
+#~ msgstr "Work type"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/FactValuesByDay/FactValuesByDayHeader.tsx:15
+#~ msgid "component.FactValuesByDay.title"
+#~ msgstr "Report on the frequency of entering facts for works"
+
+#: src/components/GGChart/helpers/getStyles.ts:61
+#~ msgid "component.GGChart.days"
+#~ msgstr "days"
+
+#: src/components/GGChart/helpers/getStyles.ts:62
+#~ msgid "component.GGChart.error"
+#~ msgstr "there is no data"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/ReportCardHeader.tsx:30
+#~ msgid "component.SchedulePlanFact.common.title"
+#~ msgstr "Structural construction schedule"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntViewModel.tsx:44
+#~ msgid "component.SchedulePlanFact.intervalName.custom"
+#~ msgstr "Custom"
+
+#: src/components/GGChart/helpers/calculateTimeGrid.ts:18
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntViewModel.tsx:42
+#~ msgid "component.SchedulePlanFact.intervalName.month"
+#~ msgstr "Month"
+
+#: src/components/GGChart/helpers/calculateTimeGrid.ts:23
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntViewModel.tsx:43
+#~ msgid "component.SchedulePlanFact.intervalName.quarter"
+#~ msgstr "Quarter"
+
+#: src/components/GGChart/helpers/calculateTimeGrid.ts:13
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntViewModel.tsx:41
+#~ msgid "component.SchedulePlanFact.intervalName.week"
+#~ msgstr "Week"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntHeader.tsx:58
+#~ msgid "component.SchedulePlanFact.isFinanceShown"
+#~ msgstr "Show finance"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntHeader.tsx:51
+#~ msgid "component.SchedulePlanFact.mode.generalReadiness"
+#~ msgstr "General readiness"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntHeader.tsx:55
+#~ msgid "component.SchedulePlanFact.mode.lag"
+#~ msgstr "Lag schedule"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/Gunnt.tsx:51
+#~ msgid "component.SchedulePlanFact.tableHeader.constructive"
+#~ msgstr "Constructive / Works"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/ReportCardHeader.tsx:65
+#~ msgid "component.SchedulePlanFact.type.controller"
+#~ msgstr "Controller"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/ReportCardHeader.tsx:61
+#~ msgid "component.SchedulePlanFact.type.foreman"
+#~ msgstr "Foreman"
+
+#: src/screens/ServicesScreen/Card/Card.tsx:15
+#~ msgid "component.ServicesScreen.Card.connected"
+#~ msgstr "Connected"
+
+#: src/screens/ServicesScreen/ServicesViewModel.tsx:15
+#~ msgid "component.ServicesScreen.tabMenu.all"
+#~ msgstr "All services"
+
+#: src/screens/ServicesScreen/ServicesViewModel.tsx:18
+#~ msgid "component.ServicesScreen.tabMenu.constructionManagement"
+#~ msgstr "Construction management"
+
+#: src/screens/ServicesScreen/ServicesViewModel.tsx:16
+#~ msgid "component.ServicesScreen.tabMenu.design"
+#~ msgstr "Design"
+
+#: src/screens/ServicesScreen/ServicesViewModel.tsx:17
+#~ msgid "component.ServicesScreen.tabMenu.economy"
+#~ msgstr "Economy"
+
+#: src/screens/ServicesScreen/ServicesViewModel.tsx:19
+#~ msgid "component.ServicesScreen.tabMenu.personnelManagement"
+#~ msgstr "Personnel management"
+
+#: src/screens/ServicesScreen/ServicesScreen.tsx:25
+#~ msgid "component.ServicesScreen.title"
+#~ msgstr "Services"
+
+#: src/screens/ClassificationsScreen/ClassificationsScreen.tsx:55
+#~ msgid "component.classifications.noItems.title.end"
+#~ msgstr ""
+
+#: src/screens/ClassificationsScreen/ClassificationsScreen.tsx:54
+#~ msgid "component.classifications.noItems.title.start"
+#~ msgstr ""
+
+#: src/screens/ClassificationsScreen/ClassificationsViewModel.tsx:36
+#~ msgid "component.classificationsScreen.tabMenu.elements"
+#~ msgstr "Elements"
+
+#: src/screens/ClassificationsScreen/ClassificationsViewModel.tsx:37
+#~ msgid "component.classificationsScreen.tabMenu.job_units"
+#~ msgstr "Measure units"
+
+#: src/screens/ClassificationsScreen/ClassificationsViewModel.tsx:35
+#~ msgid "component.classificationsScreen.tabMenu.jobs"
+#~ msgstr "Jobs"
+
+#: src/components/ScheduleListBuilder/ScheduleListBuilder.tsx:35
+#~ msgid "component.constructor.header.listWorks"
+#~ msgstr "Works list on {value}"
+
+#: src/components/CreateNewObject/Content/Content.tsx:43
+#~ msgid "component.createNewObject.objectType"
+#~ msgstr "Object type"
+
+#: src/components/CreateNewObject/Footer/Footer.tsx:12
+#~ msgid "component.createNewObject.step"
+#~ msgstr "Step"
+
+#: src/screens/ProjectScreen/ProjectViewModel.tsx:159
+#~ msgid "component.createNewObject.step_1"
+#~ msgstr "Main"
+
+#: src/screens/ProjectScreen/ProjectViewModel.tsx:160
+#~ msgid "component.createNewObject.step_2"
+#~ msgstr "Specifications"
+
+#: src/screens/ProjectScreen/ProjectViewModel.tsx:161
+#~ msgid "component.createNewObject.step_3"
+#~ msgstr "Main image"
+
+#: src/components/CreateNewObject/Header/Header.tsx:40
+#~ msgid "component.createNewObject.title"
+#~ msgstr "Create new object"
+
+#: src/screens/DashboardScreen/Widgets/ProjectsSummaryWidget/ProjectsSummaryWidget.tsx:29
+#~ msgid "component.dashboard.widgets.project_summary.count_projects"
+#~ msgstr "Count projects"
+
+#: src/constants/locale.tsx:104
+msgid "component.dashboard.widgets.projects_list.widgetName"
+msgstr "Projects"
+
+#: src/constants/locale.tsx:105
+msgid "component.dashboard.widgets.projects_summary.widgetName"
+msgstr "Projects"
+
+#: src/screens/FavoritesScreen/FavoritesScreen.tsx:57
+#~ msgid "component.favorites.noItems.title.all"
+#~ msgstr "Projects and objects"
+
+#: src/screens/FavoritesScreen/FavoritesScreen.tsx:60
+#~ msgid "component.favorites.noItems.title.end"
+#~ msgstr "that you add to favorites will be stored here."
+
+#: src/screens/FavoritesScreen/FavoritesScreen.tsx:58
+#~ msgid "component.favorites.noItems.title.objects"
+#~ msgstr "Objects"
+
+#: src/screens/FavoritesScreen/FavoritesScreen.tsx:59
+#~ msgid "component.favorites.noItems.title.projects"
+#~ msgstr "Projects"
+
+#: src/screens/FavoritesScreen/FavoritesScreen.tsx:59
+#~ msgid "component.favorites.noItems.title.start"
+#~ msgstr ""
+
+#: src/components/Favorites/NoFavoritesItems.tsx:12
+#~ msgid "component.favorites.noItems.tizer"
+#~ msgstr "You can add to favorites by clicking on the icon in the upper right corner directly from the project or object page"
+
+#: src/components/Favorites/FavoritesList.tsx:126
+#~ msgid "component.favorites.remove"
+#~ msgstr "Remove from Favorites"
+
+#: src/screens/FavoritesScreen/FavoritesViewModel.tsx:52
+#~ msgid "component.favoritesScreen.tabMenu.all"
+#~ msgstr "All"
+
+#: src/screens/ClassificationsScreen/ClassificationsViewModel.tsx:34
+#~ msgid "component.favoritesScreen.tabMenu.job_units"
+#~ msgstr "Units"
+
+#: src/screens/ClassificationsScreen/ClassificationsViewModel.tsx:33
+#~ msgid "component.favoritesScreen.tabMenu.jobs"
+#~ msgstr "Jobs"
+
+#: src/screens/FavoritesScreen/FavoritesViewModel.tsx:54
+#~ msgid "component.favoritesScreen.tabMenu.objects"
+#~ msgstr "Objects"
+
+#: src/screens/FavoritesScreen/FavoritesViewModel.tsx:53
+#~ msgid "component.favoritesScreen.tabMenu.projects"
+#~ msgstr "Projects"
+
+#: src/screens/LogsScreen/LogsViewModel.tsx:33
+#~ msgid "component.logsScreen.tabMenu.fact_values"
+#~ msgstr "Log a schedule facts"
+
+#: src/screens/ObjectScreen/ObjectTabs/PassportCard/PassportCard.tsx:13
+#~ msgid "component.object.screen.objectInfo"
+#~ msgstr "Object information"
+
+#: src/screens/ObjectScreen/ObjectViewModel.ts:144
+#~ msgid "component.objectScreen.tabMenu.constructor"
+#~ msgstr "Constructor"
+
+#: src/screens/ObjectScreen/ObjectViewModel.ts:139
+#~ msgid "component.objectScreen.tabMenu.object"
+#~ msgstr "Common"
+
+#: src/screens/ObjectScreen/ObjectViewModel.ts:147
+#~ msgid "component.objectScreen.tabMenu.objectGallery"
+#~ msgstr "Gallery"
+
+#: src/screens/ObjectScreen/ObjectViewModel.ts:149
+#~ msgid "component.objectScreen.tabMenu.objectVideo"
+#~ msgstr "Video"
+
+#: src/screens/ObjectScreen/ObjectViewModel.ts:139
+#~ msgid "component.objectScreen.tabMenu.passport"
+#~ msgstr "Passport"
+
+#: src/screens/ObjectScreen/ObjectViewModel.ts:141
+#~ msgid "component.objectScreen.tabMenu.reports"
+#~ msgstr "Reports"
+
+#: src/screens/ObjectScreen/ObjectTabs/MainCard/MainCard.tsx:57
+#~ msgid "component.objectScreen.valueBuilding"
+#~ msgstr "Value"
+
+#: src/screens/ProjectScreen/ProjectTabs/PassportCard/PassportCard.tsx:13
+#~ msgid "component.project.screen.projectInfo"
+#~ msgstr "Project info"
+
+#: src/screens/ProjectScreen/ProjectViewModel.tsx:192
+#~ msgid "component.projectScreen.modal.CreateObjectForm.children.label"
+#~ msgstr "Type"
+
+#: src/screens/ProjectScreen/ProjectViewModel.tsx:185
+#~ msgid "component.projectScreen.modal.CreateObjectForm.input.label"
+#~ msgstr "Name"
+
+#: src/screens/ProjectScreen/ProjectViewModel.tsx:201
+#~ msgid "component.projectScreen.modal.CreateObjectForm.textarea.label"
+#~ msgstr "Description"
+
+#: src/screens/ProjectScreen/ProjectViewModel.tsx:182
+#~ msgid "component.projectScreen.modal.createNewObject.title"
+#~ msgstr "Create new object"
+
+#: src/screens/ProjectScreen/ProjectViewModel.tsx:32
+#~ msgid "component.projectScreen.tabMenu.common"
+#~ msgstr "common"
+
+#: src/screens/ProjectScreen/ProjectViewModel.ts:29
+#~ msgid "component.projectScreen.tabMenu.documents"
+#~ msgstr "Documents"
+
+#: src/screens/ProjectScreen/ProjectViewModel.tsx:35
+#~ msgid "component.projectScreen.tabMenu.gallery"
+#~ msgstr "Gallery"
+
+#: src/screens/ProjectScreen/ProjectViewModel.ts:27
+#~ msgid "component.projectScreen.tabMenu.model"
+#~ msgstr "Model"
+
+#: src/screens/ProjectScreen/ProjectViewModel.tsx:33
+#~ msgid "component.projectScreen.tabMenu.passport"
+#~ msgstr "Project passport"
+
+#: src/screens/ProjectScreen/ProjectViewModel.tsx:35
+#~ msgid "component.projectScreen.tabMenu.project"
+#~ msgstr "Project"
+
+#: src/screens/ProjectScreen/ProjectViewModel.tsx:34
+#~ msgid "component.projectScreen.tabMenu.reports"
+#~ msgstr "Reports"
+
+#: src/screens/ProjectScreen/ProjectViewModel.ts:28
+#~ msgid "component.projectScreen.tabMenu.timeline"
+#~ msgstr "Time line"
+
+#: src/screens/ProjectScreen/ProjectViewModel.tsx:36
+#~ msgid "component.projectScreen.tabMenu.video"
+#~ msgstr "Video"
+
+#: src/screens/ProjectScreen/ProjectTabs/MainCard/MainCard.tsx:63
+#~ msgid "component.projectScreen.valueBuilding"
+#~ msgstr "Value"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntViewModel.tsx:149
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntViewModel.tsx:161
+#~ msgid "component.reportCard.newElement"
+#~ msgstr "New element"
+
+#: src/components/SheduleTree/ScheduleActualValuesForm/ScheduleActualValuesForm.tsx:28
+#: src/components/SheduleTree/ScheduleActualValuesForm/ScheduleActualValuesModal.tsx:38
+#~ msgid "component.scheduleActualValuesForm.header.worksList"
+#~ msgstr "Job"
+
+#: src/screens/AuthScreen/Layouts/SignUpLayout/index.tsx:14
+#~ msgid "component.signUp.greetings"
+#~ msgstr "Are you ready for work?"
+
+#: src/services/AppService/AppService.ts:108
+#~ msgid "components.app.offlineMessage"
+#~ msgstr "Internet connection is loose"
+
+#: src/services/AppService/AppService.ts:123
+#~ msgid "components.app.onlineMessage"
+#~ msgstr "Online connection was established"
+
+#: src/screens/DashboardScreen/DashboardViewModel.tsx:138
+#~ msgid "components.dashboard.modal.removeTabBody"
+#~ msgstr "Do you want remove this tab?"
+
+#: src/screens/DashboardScreen/DashboardViewModel.tsx:138
+#~ msgid "components.dashboard.modal.removeTabTitle"
+#~ msgstr "Remove tab"
+
+#: src/screens/DashboardScreen/DashboardViewModel.tsx:168
+#~ msgid "components.dashboard.toolbox.title"
+#~ msgstr "Widgets"
+
+#: src/components/DropZone/DropZone.tsx:19
+#~ msgid "components.dragZone.clickToSelect"
+#~ msgstr "Upload from computer"
+
+#: src/components/DropZone/DropZone.tsx:18
+#~ msgid "components.dragZone.dropHere"
+#~ msgstr "Drop files here"
+
+#: src/components/DropZone/DropZone.tsx:12
+#~ msgid "components.dropZone.dragHere"
+#~ msgstr "Drag files here"
+
+#: src/components/Gallery/Gallery.tsx:71
+#~ msgid "components.gallery.noData"
+#~ msgstr "The gallery is empty, you can upload image now!"
+
+#: src/models/entities/FileListModel/FileListModel.ts:72
+#: src/services/FileLoaderService/FileLoaderService.ts:112
+#: src/services/FileLoaderService/FileLoaderService.ts:118
+#: src/services/FileLoaderService/FileLoaderService.ts:148
+#~ msgid "components.imagesListModal.errors.default"
+#~ msgstr "Some files were not uploaded"
+
+#: src/services/FileLoaderService/FileLoaderService.ts:86
+#: src/services/FileLoaderService/FileLoaderService.ts:131
+#~ msgid "components.imagesListModal.errors.fileSize.max"
+#~ msgstr ""
+
+#: src/services/FileLoaderService/FileLoaderService.ts:83
+#~ msgid "components.imagesListModal.errors.mimeType.text"
+#~ msgstr ""
+
+#: src/services/FileLoaderService/FileLoaderService.ts:100
+#~ msgid "components.imagesListModal.errors.size.text"
+#~ msgstr ""
+
+#: src/services/FileLoaderService/FileLoaderService.ts:139
+#~ msgid "components.imagesListModal.errors.videoMaxDuration"
+#~ msgstr ""
+
+#: src/screens/ObjectScreen/ObjectViewModel.ts:162
+#: src/screens/ProjectScreen/ProjectViewModel.tsx:205
+#~ msgid "components.metaEditor.ungroupedFieldsGroupName"
+#~ msgstr "Ungrouped"
+
+#: src/screens/ProjectsListScreen/ProjectsListScreen.tsx:48
+#~ msgid "components.projects.objectsOnMap"
+#~ msgstr "Objects on map"
+
+#: src/components/LeftMenu/LeftMenu.tsx:32
+#~ msgid "components.pwa.installApp"
+#~ msgstr "Install"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:137
+#~ msgid "components.reportCard.modal.cancelEditBody"
+#~ msgstr "All changes will be canceled."
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:137
+#~ msgid "components.reportCard.modal.cancelEditTitle"
+#~ msgstr "Discard changes?"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntViewModel.tsx:175
+#~ msgid "components.reportCard.modal.makeComponentAsGrouped"
+#~ msgstr "Make new group and move node into it?"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntViewModel.tsx:175
+#~ msgid "components.reportCard.modal.nonGroupedcomponent"
+#~ msgstr "This node is not a grouped node"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/ReportCard.tsx:44
+#~ msgid "components.reports.guntt.name"
+#~ msgstr "Report on readiness of object"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntHeader.tsx:44
+#~ msgid "components.reports.guntt.tabs.3dmodel"
+#~ msgstr "3D-model"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntHeader.tsx:41
+#~ msgid "components.reports.guntt.tabs.byFinance"
+#~ msgstr "by volume and finance"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntHeader.tsx:38
+#~ msgid "components.reports.guntt.tabs.byValue"
+#~ msgstr "by volume"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/Guntt/GunntHeader.tsx:35
+#~ msgid "components.reports.guntt.tabs.common"
+#~ msgstr "Plan-fact"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/ReportCard.tsx:68
+#~ msgid "components.reports.photoFacts.name"
+#~ msgstr "Photo facts"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/ReportCard.tsx:36
+#~ msgid "components.reports.values_by_day.name"
+#~ msgstr "Report dynamics of the facts"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/FactValuesByDay/FactValuesByDayHeader.tsx:36
+#~ msgid "components.reports.values_by_day.noDataAvailableEnd"
+#~ msgstr "there is no data"
+
+#: src/screens/ObjectScreen/ObjectTabs/ReportCard/Reports/FactValuesByDay/FactValuesByDayHeader.tsx:33
+#~ msgid "components.reports.values_by_day.noDataAvailableStart"
+#~ msgstr "Over the period"
+
+#: src/screens/DashboardScreen/DashboardScreen.tsx:39
+#: src/screens/DashboardScreen/DashboardScreen.tsx:40
+#~ msgid "components.router.dashboard"
+#~ msgstr "dashboard"
+
+#: src/constants/routes.ts:14
+#~ msgid "components.router.main"
+#~ msgstr "MAIN"
+
+#: src/constants/routes.ts:19
+#: src/screens/ProjectsListScreen/ProjectsListScreen.tsx:40
+#~ msgid "components.router.projects"
+#~ msgstr "Projects"
+
+#: src/constants/routes.ts:24
+#~ msgid "components.router.projects.favorites"
+#~ msgstr "Favorites"
+
+#: src/constants/routes.ts:29
+#~ msgid "components.router.projects.problematic"
+#~ msgstr "Problematic"
+
+#: src/constants/routes.ts:14
+#~ msgid "components.router.projectsw"
+#~ msgstr ""
+
+#: src/constants/routes.ts:34
+#~ msgid "components.router.references"
+#~ msgstr "References"
+
+#: src/constants/routes.ts:39
+#~ msgid "components.router.references.classifications"
+#~ msgstr "Classifications"
+
+#: src/constants/routes.ts:34
+#~ msgid "components.router.reports"
+#~ msgstr "REPORTS"
+
+#: src/constants/routes.ts:49
+#~ msgid "components.router.reports.enterFact"
+#~ msgstr "Fact entry"
+
+#: src/constants/routes.ts:39
+#~ msgid "components.router.reports.fact"
+#~ msgstr "Plan-fact"
+
+#: src/constants/routes.ts:44
+#~ msgid "components.router.reports.guntt"
+#~ msgstr "Schedule"
+
+#: src/constants/routes.ts:54
+#~ msgid "components.router.services"
+#~ msgstr "Services"
+
+#: src/components/SheduleTree/ScheduleNode/ScheduleNodeBody.tsx:50
+#~ msgid "components.schedule.addWork"
+#~ msgstr "Add node here"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardHeader.tsx:49
+#~ msgid "components.scheduleListBuilder.addSelectedNodesToForm"
+#~ msgstr "Add selected tree to form"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardHeader.tsx:29
+#~ msgid "components.scheduleListBuilder.createFactList"
+#~ msgstr "Create list of factual values"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:340
+#~ msgid "components.scheduleListBuilder.modal.addRootNodeModalBody"
+#~ msgstr "A new stage of the Schedule will be added to the root level"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:340
+#~ msgid "components.scheduleListBuilder.modal.addRootNodeModalTitle"
+#~ msgstr "Добавление корневого этапа"
+
+#: src/components/SheduleTree/ScheduleActualValuesForm/ScheduleActualValuesModal.tsx:47
+#~ msgid "components.scheduleListBuilder.modal.createListFactValues.title"
+#~ msgstr "Create form cost of jobs"
+
+#: src/components/SheduleTree/ScheduleActualValuesForm/ScheduleActualValuesModal.tsx:50
+#~ msgid "components.scheduleListBuilder.modal.createListFactValues.writeComment"
+#~ msgstr "write a comment"
+
+#: src/screens/ObjectScreen/ObjectViewModel.ts:43
+#~ msgid "components.scheduleListBuilder.modal.errorAddNodeModalBody"
+#~ msgstr "Error adding a new stage of the Schedule"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:169
+#~ msgid "components.scheduleListBuilder.modal.errorRemoveNodeModalBody"
+#~ msgstr "Unable to delete this stage of the Schedule"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:284
+#~ msgid "components.scheduleListBuilder.modal.errorSavingNodeModalBody"
+#~ msgstr "Error saving a new Schedule's Stage / Work"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:239
+#~ msgid "components.scheduleListBuilder.modal.moveRootNodeModalBody"
+#~ msgstr "Warning! This operation will cause the recalculation of the fields of the stages of the Schedule"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:239
+#~ msgid "components.scheduleListBuilder.modal.moveRootNodeModalTitle"
+#~ msgstr "Changing Schedule Structure"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:188
+#~ msgid "components.scheduleListBuilder.modal.removeNodeModalBody"
+#~ msgstr "If removing stage contain children stages, its also will be removed"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:184
+#~ msgid "components.scheduleListBuilder.modal.removeNodeModalTitle"
+#~ msgstr "A you sure you want to delete stage?"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:350
+#~ msgid "components.scheduleListBuilder.modal.versionTitle"
+#~ msgstr ""
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:226
+#~ msgid "components.scheduleListBuilder.moveNodeSuccess"
+#~ msgstr "Schedule item successfully moved"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:48
+#~ msgid "components.scheduleListBuilder.newNode.name"
+#~ msgstr "New node"
+
+#: src/components/ScheduleVersionEditForm/ScheduleVersionEditForm.tsx:45
+#~ msgid "components.scheduleVersionEditForm.modal.removeVersionBody"
+#~ msgstr "Operation is unalterable"
+
+#: src/components/ScheduleVersionEditForm/ScheduleVersionEditForm.tsx:45
+#~ msgid "components.scheduleVersionEditForm.modal.removeVersionTitle"
+#~ msgstr "Version was removed"
+
+#: src/components/ScheduleVersionEditForm/ScheduleVersionEditForm.tsx:138
+#~ msgid "components.selectorBuilder.addNewTag"
+#~ msgstr "Add new version"
+
+#: src/components/Widgets/FormatDateToQuarter/FormatDateToQuarter.tsx:16
+#~ msgid "components.stage.done"
+#~ msgstr "done"
+
+#: src/components/Widgets/FormatDateToQuarter/FormatDateToQuarter.tsx:16
+#: src/components/Widgets/FormatDateToQuarter/FormatDateToQuarter.tsx:16
+#~ msgid "components.stage.normal"
+#~ msgstr "deadline"
+
+#: src/components/Widgets/FormatDateToQuarter/FormatDateToQuarter.tsx:16
+#: src/components/Widgets/FormatDateToQuarter/FormatDateToQuarter.tsx:16
+#~ msgid "components.stage.stop"
+#~ msgstr "problem"
+
+#: src/containers/AppErrorBoundaryContainer/AppErrorBoundaryContainer.tsx:8
+#~ msgid "containers.appErrorBoundary Messageadmin@csp.ru"
+#~ msgstr ""
+
+#: src/containers/AppErrorBoundaryContainer/AppErrorBoundaryContainer.tsx:9
+#~ msgid "containers.appErrorBoundary.Messageadmin@csp.ru"
+#~ msgstr ""
+
+#: src/containers/AppErrorBoundaryContainer/AppErrorBoundaryContainer.tsx:10
+#~ msgid "containers.appErrorBoundaryMessage"
+#~ msgstr "an unexpected error occurred. Please call with administrator: {label}"
+
+#: src/services/FileLoaderService/FileLoaderService.ts:128
+#~ msgid "error.default"
+#~ msgstr ""
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:373
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:377
+#~ msgid "error.fact.create"
+#~ msgstr "Error create fact to job"
+
+#: src/screens/AuthScreen/AuthViewModel.tsx:48
+#: src/services/ApiService/Endpoints/JWT/JWT.ts:27
+#~ msgid "error.incorrect_email_or_password"
+#~ msgstr "Incorrect email or password"
+
+#: src/services/ApiService/RequestService/RequestService.ts:208
+#: src/services/ApiService/RequestService/RequestService.ts:208
+#~ msgid "error.requestError"
+#~ msgstr "Request error"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:326
+#~ msgid "error.scheduleBuilder.node.create"
+#~ msgstr "Error create schedule node"
+
+#: src/screens/ObjectScreen/ObjectTabs/ScheduleListBuilderCard/ScheduleListBuilderCardViewModel.tsx:283
+#~ msgid "error.scheduleBuilder.node.update"
+#~ msgstr "Error update schedule node"
+
+#: src/screens/AuthScreen/AuthViewModel.tsx:49
+#~ msgid "error.user_create_error"
+#~ msgstr "User create error"
+
+#: src/constants/forms.ts:67
+#~ msgid "form.deviation_day.label"
+#~ msgstr "Deviation day"
+
+#: src/constants/forms.ts:71
+#~ msgid "form.deviation_day_from.label"
+#~ msgstr "Deviation day from"
+
+#: src/constants/forms.ts:78
+#~ msgid "form.deviation_day_to.label"
+#~ msgstr "Deviation day to"
+
+#: src/constants/forms.ts:13
+#~ msgid "form.email.label"
+#~ msgstr "Email"
+
+#: src/constants/forms.ts:14
+#~ msgid "form.email.placeholder"
+#~ msgstr "Please type Email"
+
+#: src/constants/forms.ts:42
+#~ msgid "form.firstname.label"
+#~ msgstr "First name"
+
+#: src/constants/forms.ts:43
+#~ msgid "form.firstname.placeholder"
+#~ msgstr "Ivan"
+
+#: src/constants/forms.ts:49
+#~ msgid "form.lastname.label"
+#~ msgstr "Last name"
+
+#: src/constants/forms.ts:50
+#~ msgid "form.lastname.placeholder"
+#~ msgstr "Darko"
+
+#: src/constants/forms.ts:7
+#~ msgid "form.number.label"
+#~ msgstr "Number"
+
+#: src/constants/forms.ts:113
+#~ msgid "form.object_type.label"
+#~ msgstr "Object type"
+
+#: src/constants/forms.ts:56
+#~ msgid "form.organisation_id.label"
+#~ msgstr "Organisation id"
+
+#: src/constants/forms.ts:57
+#~ msgid "form.organisation_id.placeholder"
+#~ msgstr "Please type organisaton id"
+
+#: src/constants/forms.ts:27
+#~ msgid "form.password.label"
+#~ msgstr "Password"
+
+#: src/constants/forms.ts:28
+#~ msgid "form.password.placeholder"
+#~ msgstr "Please type password"
+
+#: src/constants/forms.ts:34
+#~ msgid "form.passwordConfirm.label"
+#~ msgstr "Confirm password"
+
+#: src/constants/forms.ts:35
+#~ msgid "form.passwordConfirm.placeholder"
+#~ msgstr "Please confirm password"
+
+#: src/constants/forms.ts:20
+#~ msgid "form.phone.label"
+#~ msgstr "Phone"
+
+#: src/constants/forms.ts:21
+#~ msgid "form.phone.placeholder"
+#~ msgstr "Please type phone"
+
+#: src/constants/forms.ts:109
+#~ msgid "form.project_type.label"
+#~ msgstr "Project type"
+
+#: src/constants/forms.ts:105
+#~ msgid "form.region.label"
+#~ msgstr "Region"
+
+#: src/constants/forms.ts:63
+#~ msgid "form.status.label"
+#~ msgstr "Status"
+
+#: src/utils/helpers/validators.ts:12
+#: src/utils/helpers/validators.ts:77
+#~ msgid "form.validator.isNotEmpty"
+#~ msgstr "{label} don't be an empty"
+
+#: src/utils/helpers/validators.ts:52
+#~ msgid "form.validator.mustEmail"
+#~ msgstr "{label} must be Email address"
+
+#: src/utils/helpers/validators.ts:43
+#~ msgid "form.validator.mustEqual"
+#~ msgstr "{first} must be equal {second}"
+
+#: src/utils/helpers/validators.ts:34
+#~ msgid "form.validator.mustLess"
+#~ msgstr "{first} must be less than {second}"
+
+#: src/utils/helpers/validators.ts:38
+#~ msgid "form.validator.mustMore"
+#~ msgstr "{first} must be more than {second}"
+
+#: src/utils/helpers/validators.ts:67
+#~ msgid "form.validator.mustName"
+#~ msgstr "{label} must have 5 to 25 characters"
+
+#: src/utils/helpers/validators.ts:62
+#~ msgid "form.validator.mustPassword"
+#~ msgstr "{label} must have 5 to 32 characters"
+
+#: src/utils/helpers/validators.ts:57
+#~ msgid "form.validator.mustPhone"
+#~ msgstr "{label} must have format x-xx-xxxxxxxxx"
+
+#: src/utils/helpers/validators.ts:9
+#~ msgid "form.validator.onlyNumbers"
+#~ msgstr "field must contain only numbers"
+
+#: src/utils/helpers/validators.ts:72
+#~ msgid "form.validator.organisatonId"
+#~ msgstr "{label} must be an numeric"
+
+#: src/constants/forms.ts:87
+#~ msgid "form.volume_percent.label"
+#~ msgstr "Readiness percent"
+
+#: src/constants/forms.ts:91
+#~ msgid "form.volume_percent_from.label"
+#~ msgstr "Readiness percent from"
+
+#: src/constants/forms.ts:97
+#~ msgid "form.volume_percent_to.label"
+#~ msgstr "Readiness percent to"
+
+#: src/containers/App/App.tsx:97
+#~ msgid "project.description"
+#~ msgstr "Description"
+
+#: src/components/LeftMenu/LeftMenu.tsx:24
+#: src/containers/App/App.tsx:96
+#: src/screens/AuthScreen/AuthScreen.tsx:44
+#~ msgid "project.name"
+#~ msgstr "The platform of building services"
+
+#: src/constants/routes.ts:123
+#~ msgid "routes.classifications.name"
+#~ msgstr "Classifications"
+
+#: src/constants/routes.ts:83
+#~ msgid "routes.dashboard.name"
+#~ msgstr "Dashboard"
+
+#: src/constants/routes.ts:117
+#: src/screens/FavoritesScreen/FavoritesScreen.tsx:34
+#~ msgid "routes.favorites.name"
+#~ msgstr "Favorites"
+
+#: src/constants/routes.ts:128
+#~ msgid "routes.logs.name"
+#~ msgstr ""
+
+#: src/constants/routes.ts:128
+#~ msgid "routes.logs.scheduleFact.name"
+#~ msgstr ""
+
+#: src/constants/routes.ts:95
+#~ msgid "routes.projects.name"
+#~ msgstr "Projects list"
+
+#: src/constants/routes.ts:123
+#~ msgid "routes.references.name"
+#~ msgstr ""
+
+#: src/constants/routes.ts:89
+#~ msgid "routes.services.name"
+#~ msgstr "Services"
+
+#: src/screens/ClassificationsScreen/ClassificationsViewModel.tsx:98
+#~ msgid "screens.classifications.tables.element.cols.code"
+#~ msgstr "Code"
+
+#: src/screens/ClassificationsScreen/ClassificationsViewModel.tsx:81
+#: src/screens/ClassificationsScreen/ClassificationsViewModel.tsx:97
+#: src/screens/LogsScreen/LogsViewModel.tsx:68
+#~ msgid "screens.classifications.tables.job.cols.id"
+#~ msgstr "identity"
+
+#: src/screens/ClassificationsScreen/ClassificationsViewModel.tsx:84
+#: src/screens/ClassificationsScreen/ClassificationsViewModel.tsx:100
+#: src/screens/LogsScreen/LogsViewModel.tsx:71
+#~ msgid "screens.classifications.tables.job.cols.job_element_group"
+#~ msgstr "group"
+
+#: src/screens/ClassificationsScreen/ClassificationsViewModel.tsx:83
+#: src/screens/LogsScreen/LogsViewModel.tsx:70
+#~ msgid "screens.classifications.tables.job.cols.job_unit"
+#~ msgstr "measure unit"
+
+#: src/screens/ClassificationsScreen/ClassificationsViewModel.tsx:82
+#: src/screens/ClassificationsScreen/ClassificationsViewModel.tsx:99
+#: src/screens/LogsScreen/LogsViewModel.tsx:69
+#~ msgid "screens.classifications.tables.job.cols.name"
+#~ msgstr "name"
+
+#: src/screens/ClassificationsScreen/ClassificationsViewModel.tsx:69
+#~ msgid "screens.classifications.tables.job_units.cols.description"
+#~ msgstr "description"
+
+#: src/screens/ClassificationsScreen/ClassificationsViewModel.tsx:67
+#~ msgid "screens.classifications.tables.job_units.cols.id"
+#~ msgstr "identity"
+
+#: src/screens/ClassificationsScreen/ClassificationsViewModel.tsx:68
+#~ msgid "screens.classifications.tables.job_units.cols.name_short"
+#~ msgstr "name"
+
+#: src/screens/DashboardScreen/Widgets/ProjectsSummaryWidget/ProjectsSummaryWidget.tsx:20
+#~ msgid "screens.dashboard.widgets.project_summary.count_projects"
+#~ msgstr ""
+
+#: src/screens/ProjectScreen/ProjectTabs/MainCard/MainCard.tsx:52
+#~ msgid "screens.objectList.search.placeholder"
+#~ msgstr "search in objects"
+
+#: src/screens/FavoritesScreen/FavoritesScreen.tsx:52
+#: src/screens/ProjectsListScreen/ProjectsListScreen.tsx:60
+#~ msgid "screens.projectList.search.placeholder"
+#~ msgstr "search in projects"
+
+#: src/screens/ProjectScreen/ProjectTabs/ReportCard/ReportCardViewModel.tsx:147
+#: src/screens/ProjectScreen/ProjectTabs/ReportCard/ReportCardViewModel.tsx:115
+#: src/screens/ProjectScreen/ProjectTabs/ReportCard/ReportCardViewModel.tsx:131
+#~ msgid "screens.reportCard.modal.makeComponentAsGrouped"
+#~ msgstr "Make new group and move node into it?"
+
+#: src/screens/ProjectScreen/ProjectTabs/ReportCard/ReportCardViewModel.tsx:126
+#~ msgid "screens.reportCard.modal.nonGroupedcomponent"
+#~ msgstr "This node is not a grouped node"
+
+#: src/screens/ProjectScreen/ProjectTabs/ReportCard/ReportCardViewModel.tsx:167
+#~ msgid "view.ReportCard.error.receiving"
+#~ msgstr "Error receiving data for the Plan-fact report"
+
+#: src/screens/ProjectScreen/ProjectTabs/ReportCard/ReportCard.tsx:65
+#~ msgid "view.ReportCard.nodata"
+#~ msgstr "No data for this object"
+
+#: src/utils/helpers/numbers.ts:13
+#~ msgid "x12"
+#~ msgstr ""
+
+#: src/utils/helpers/numbers.ts:13
+#~ msgid "x15"
+#~ msgstr ""
+
+#: src/utils/helpers/numbers.ts:13
+#~ msgid "x18"
+#~ msgstr ""
+
+#: src/utils/helpers/numbers.ts:13
+#~ msgid "x3"
+#~ msgstr "k"
+
+#: src/utils/helpers/numbers.ts:13
+#~ msgid "x6"
+#~ msgstr "m"
+
+#: src/utils/helpers/numbers.ts:13
+#~ msgid "x9"
+#~ msgstr "b"
